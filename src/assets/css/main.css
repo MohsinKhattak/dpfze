@@ -67,13 +67,27 @@ body {
 
 .below_main {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-items: center;
     align-items: flex-start;
-    padding-left: 10%;
-    padding-right: 10%;
+}
+
+.below_main_left {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.below_main_right {
+    width: 50%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading {
@@ -90,7 +104,7 @@ body {
 .horizontal_line_blue {
     border: 1px solid #0C73BA;
     border-radius: 10%;
-    width: 15%;
+    width: 45%;
     left: 0;
     margin-top: 2.5%;
     margin-bottom: 1%
@@ -103,36 +117,70 @@ body {
     font-family: 'poppins';
 }
 
+.image_style {
+    width: 100%;
+    height: 100%;
+}
 
-/*--------------------------Who are we------------------------*/
 
-.who_are_we {
+/*-------------------------------------Third  Section--------------------------------*/
+
+.third_section {
+    background-image: url("https://dbmtsteel.com/wp-content/uploads/revslider/about/About-Banner-1.jpg");
+    background-position: top;
+    background-attachment: fixed;
+    padding-top: 5%;
+}
+
+
+/*--------------------------------4th Section--------------------------------*/
+
+.fourth_section {
     width: 100%;
     height: 90vh;
-    background-color: #0C73BA;
-    display: flex;
-    flex-direction: row;
+    padding: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue_color_title {
+    color: #0C73BA;
+}
+
+
+/*----------------------------------fifth section------------------------------*/
+
+.fifth_section {
+    width: 100%;
+    height: 50vh;
     padding-left: 5%;
     padding-right: 5%;
-    align-items: center;
-    justify-items: center;
-    background-image: url("../images/pic1.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    box-shadow: inset 0 0 0 2000px rgba(12, 115, 186, 0.8);
-}
-
-.who_are_we_left {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    background-image: url("https://dbmtsteel.com/wp-content/uploads/revslider/about/About-Banner-1.jpg");
+    background-position: top;
+    background-attachment: scroll;
     align-items: center;
-    width: 40%;
+    justify-content: center;
 }
 
-.who_are_we_right {
-    background-color: white;
-    height: 90%;
-    padding-left: 5%;
-    margin: 0 0 0 5%;
+.counter_div {
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbers_count {
+    font-size: 5em;
+    position: relative;
+    font-weight: 900;
+    font-family: 'Playfair Display';
+    color: beige;
+}
+
+.numbers_count_below {
+    font-size: 1.5em;
+    font-weight: 800;
+    font-family: 'poppins';
+    align-self: center;
 }
