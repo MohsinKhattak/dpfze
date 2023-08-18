@@ -1,0 +1,127 @@
+/*Global CSS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Global Css End*/
+
+.contactus_main {
+    width: 100%;
+    height: 80vh;
+}
+
+.contactus_hero_section {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-image: url("https://dbmtsteel.com/wp-content/uploads/revslider/about/About-Banner-1.jpg");
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.contact_us_title {
+    font-size: 3.5em;
+    position: relative;
+    font-weight: 900;
+    left: 15%;
+    color: #FFFFFF;
+    font-family: 'Playfair Display';
+}
+
+.horizontal_line {
+    width: 5%;
+    left: 15%;
+    position: relative;
+    border: 2px solid #FFFFFF;
+    border-radius: 10%;
+    color: #FFFFFF;
+}
+
+.horizontal_line_long {
+    width: 8%;
+    margin-top: 1.5%;
+}
+
+.horizontal_line_short {
+    width: 4%;
+    margin-top: .5%;
+}
+
+
+/*---------------------------------below hero---------------------------*/
+
+.getInTouch_section {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    padding: 0 5% 0% 5%;
+}
+
+.left_area {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content_area {
+    margin: 5% 0 0 0
+}
+
+.content_area_heading {
+    font-size: 1.8em;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    margin-left: 1%;
+}
+
+.fa_icons {
+    color: #0C73BA;
+    font-size: 1.5em;
+}
+
+.right_area {
+    width: 50%;
+}
+
+.horizontal_line_blue {
+    border: 1px solid #0C73BA;
+    border-radius: 10%;
+    width: 45%;
+    left: 0;
+    margin-top: 2.5%;
+    margin-bottom: 1%
+}
+
+.paragraph {
+    font-size: 1em;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'poppins';
+}
+
+.paragraph_title {
+    font-weight: 900;
+    font-family: 'poppins';
+    letter-spacing: .05em
+}
+
+.inline_heading {
+    display: inline;
+}
