@@ -125,3 +125,74 @@ body {
 .inline_heading {
     display: inline;
 }
+
+
+/*REsponsive Design*/
+
+@media (max-width: 768px) {
+    .contactus_hero_section {
+        height: 50vh;
+    }
+    .contact_us_title {
+        font-size: 2.5em;
+        left: 10%;
+    }
+    .horizontal_line {
+        left: 10%;
+    }
+    .horizontal_line_long {
+        width: 15%;
+    }
+    .horizontal_line_short {
+        width: 8%;
+    }
+    .getInTouch_section {
+        flex-direction: column;
+    }
+    .left_area {
+        width: 100%;
+    }
+    .right__area {
+        display: none;
+    }
+}
+
+
+/* Media Query for Mobile Devices */
+
+@media (max-width: 480px) {
+    .contactus_hero_section {
+        height: 40vh;
+    }
+    .contact_us_title {
+        font-size: 2em;
+        left: 5%;
+    }
+    .horizontal_line {
+        left: 5%;
+    }
+    .horizontal_line_long {
+        width: 20%;
+    }
+    .horizontal_line_short {
+        width: 10%;
+    }
+    .content_area_heading {
+        font-size: 1.5em;
+    }
+    .fa_icons {
+        font-size: 1.2em;
+    }
+    .horizontal_line_blue {
+        width: 60%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    .paragraph {
+        font-size: 0.9em;
+        line-height: 24px;
+    }
+    .paragraph_title {
+        font-size: 0.9em;
+    }
+}
