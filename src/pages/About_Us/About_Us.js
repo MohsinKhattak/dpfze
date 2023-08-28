@@ -10,7 +10,7 @@ function AboutUs() {
           <hr className="horizontal_line horizontal_line_short" />
         </div>
       </div>
-      <div className="below_main">
+      <div className="below_main ">
         <div className="below_main_left">
           <h1 className="heading">
             <span className="heading_light">About</span> DPFZE
@@ -32,7 +32,7 @@ function AboutUs() {
             to find.
           </p>
         </div>
-        <div className="below_main_right ">
+        <div className="below_main_right  ">
           <img
             className="image_style"
             src="https://i.ebayimg.com/images/g/92sAAOSwOi5gxmyU/s-l1600.jpg"
@@ -41,14 +41,14 @@ function AboutUs() {
         </div>
       </div>
       <div className="below_main third_section">
-        <div className="below_main_left">
+        <div className="below_main_right">
           <img
             className="image_style"
             src="https://saurinenterprise.in/img/service/PVC-Pipes.jpg"
             alt="some pipes"
           />
         </div>
-        <div className="below_main_right">
+        <div className="below_main_left">
           <h1 className="heading">
             <span className="heading_light">DPFZE </span> Expertise
           </h1>
@@ -108,7 +108,7 @@ function AboutUs() {
           <p className="numbers_count_below">Projects Done</p>
         </div>
         <div className="counter_div">
-          <h3 className="numbers_count">90000+</h3>
+          <h3 className="numbers_count">900+</h3>
           <p className="numbers_count_below">Material Supplied</p>
         </div>
       </div>
